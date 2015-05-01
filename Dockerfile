@@ -8,6 +8,6 @@ ENV LANG       en_US.UTF-8
 ENV LC_ALL     en_US.UTF-8
 RUN dpkg-reconfigure locales
 
-RUN apt-get update && apt-get -y install supervisor
+RUN apt-get update && apt-get upgrade && apt-get -y install supervisor
 
 ADD assets/supervisord.conf /etc/supervisor/supervisord.conf

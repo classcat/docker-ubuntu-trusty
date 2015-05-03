@@ -1,17 +1,19 @@
 # Ubuntu
 
-Ubuntu image with locale en_US.UTF-8
+Ubuntu Vivid/Trusty images with locale en_US.UTF-8
 
 ## Overview
 
-Ubuntu Trusty simple image with :  
+Ubuntu Vivid/Trusty simple images with :  
 
 + locale en_US.UTF-8
 + language-pack-en language-pack-en-base
 
+built on the top of formal Ubuntu images.
+
 ## TAGS
 
-+ latest
++ latest - vivid
 + vivid
 + trusty
 
